@@ -922,6 +922,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "mkpatch"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "gruf",
+ "log",
+ "serde",
+ "serde_yaml",
+ "simple_logger",
+ "walkdir",
+]
+
+[[package]]
 name = "native-tls"
 version = "0.2.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
