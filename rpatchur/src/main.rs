@@ -19,7 +19,7 @@ const PKG_NAME: &str = env!("CARGO_PKG_NAME");
 const PKG_VERSION: &str = env!("CARGO_PKG_VERSION");
 const PKG_AUTHORS: &str = env!("CARGO_PKG_AUTHORS");
 const PKG_DESCRIPTION: &str = env!("CARGO_PKG_DESCRIPTION");
-const WINDOW_TITLE: &str = "RPatchur";
+const WINDOW_TITLE: &str = "BuzzyRO";
 
 fn main() {
     SimpleLogger::new()
